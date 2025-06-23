@@ -2,6 +2,7 @@ from flask import Flask
 from flask import Flask
 from .models import db
 from .routes import scheduler_bp
+import streamlit as st
 
 def create_app():
     app = Flask(__name__)
