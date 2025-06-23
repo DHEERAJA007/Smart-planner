@@ -1,5 +1,4 @@
 from flask import Flask
-from scheduler import create_app
 from flask import Flask
 from .models import db
 from .routes import scheduler_bp
